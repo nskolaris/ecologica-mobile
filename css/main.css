@@ -1,0 +1,1298 @@
+/* Asumo orientacion portrait y luego piso con landscape los estilos que sean necesarios */
+
+.img_demo{
+    height: 40%;
+	background-image:  url("../images/eco/institucional-botella.jpg") ;
+    background-repeat: no-repeat;
+    background-color: #90b7c8;
+   /* background-position:  top left;
+	background-size: cover;*/
+	background-position: top center;
+	background-size: cover;
+	-moz-box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0px 10px 10px  rgba(0,0,0,0.2);
+	box-shadow: 0px 10px 10px  rgba(0,0,0,0.2);
+}
+
+
+/* Generales */
+html.ui-mobile{
+	min-height:1px;
+}
+
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	background: rgb(112,187,68); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(112,187,68,1) 0%, rgba(97,160,143,1) 40%, rgba(25,69,157,1) 41%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(112,187,68,1)), color-stop(40%,rgba(97,160,143,1)), color-stop(41%,rgba(25,69,157,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(112,187,68,1) 0%,rgba(97,160,143,1) 40%,rgba(25,69,157,1) 41%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(112,187,68,1) 0%,rgba(97,160,143,1) 40%,rgba(25,69,157,1) 41%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(112,187,68,1) 0%,rgba(97,160,143,1) 40%,rgba(25,69,157,1) 41%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(112,187,68,1) 0%,rgba(97,160,143,1) 40%,rgba(25,69,157,1) 41%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70bb44', endColorstr='#19459d',GradientType=0 ); /* IE6-9 */
+	height: 100%!important;
+}
+
+.gradiente-gris{
+	background: #fff;
+	background: -moz-linear-gradient(top,  #c7c8c8 0%, #ffffff 76%, #ffffff 84%, #d5d5d5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c7c8c8), color-stop(76%,#ffffff), color-stop(84%,#ffffff), color-stop(100%,#d5d5d5));
+	background: -webkit-linear-gradient(top,  #c7c8c8 0%,#ffffff 76%,#ffffff 84%,#d5d5d5 100%);
+	background: -o-linear-gradient(top,  #c7c8c8 0%,#ffffff 76%,#ffffff 84%,#d5d5d5 100%);
+	background: -ms-linear-gradient(top,  #c7c8c8 0%,#ffffff 76%,#ffffff 84%,#d5d5d5 100%);
+	background: linear-gradient(to bottom,  #c7c8c8 0%,#ffffff 76%,#ffffff 84%,#d5d5d5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7c8c8', endColorstr='#d5d5d5',GradientType=0 );
+}
+
+.ui-content
+{
+   padding: 15px 0px;
+   z-index: 1;
+}
+
+.ui-body-c, .ui-overlay-c{
+	text-shadow:none;
+}
+
+/* Dialog */
+
+.ui-dialog-contain > .ui-header {
+    line-height: 38px;
+    text-align: center;
+}
+
+.ui-dialog-contain > .ui-content {
+    padding: 0px;
+    background: #000;
+}
+
+#institucional .ui-content, .vitalitud .ui-content{
+   padding: 15px 0px;
+   background: #FFF;
+}
+.vitalitud .ui-content{
+	padding:0px;
+}
+
+#institucional.ui-body-c, .vitalitud .ui-body-c{
+   background: #FFF;
+}
+
+#institucional .ui-content{
+   padding: 0px 15px 0px 0px;
+}
+
+#tips .ui-content, #tips .ui-body-c{
+	padding:0px;
+	background:none;
+}
+
+h2{
+	color:#0053ab;
+}
+
+p {
+	color:#a8a8a8;
+	line-height: 1.5em;
+}
+
+.ui-br{
+	border:0;
+}
+a:visited{
+	border:none;
+}
+
+/* Botones mas grandes */
+#encabezado-wrapper .ui-btn{
+	width: 32px;
+	height: 32px;
+}
+
+#encabezado-wrapper  .ui-btn-icon-notext{
+	top: 4px;
+}
+
+#encabezado-wrapper  .ui-btn-icon-notext .ui-btn-inner .ui-icon {
+    margin: 3px 1px 2px 4px;
+    background-image: url("../images/eco/flecha-atras.png");
+	background-position: center center;
+	background-size: contain;
+	width: 24px;
+	height: 24px
+}
+
+/* Titulo en el header alineado a la izquierda; */
+#encabezado-wrapper .ui-header .ui-title{
+	margin: 0.3em 50px 0.3em;
+	text-align:left;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.ui-btn-inner{
+	border: none;
+	border-top-color: none;
+}
+
+.ui-header{
+	-moz-box-shadow: 0px 4px 8px  rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0px 4px 8px  rgba(0,0,0,0.4);
+	box-shadow: 0px 4px 8px  rgba(0,0,0,0.4);
+}
+
+#encabezado
+{
+    position:relative;
+    height: 13.5%;
+    background-image: url("../images/ecologica/logo.png");
+    background-repeat: no-repeat;
+	background-position: center 50%;
+    background-size: auto 90%;
+    border:none;
+	border-bottom: 1px solid #446a37;
+    width:100%;
+	z-index:10;
+	-webkit-box-shadow: 0px 3px 0px rgba(113, 174, 96, 1);
+	-moz-box-shadow:    0px 3px 0px rgba(113, 174, 96, 1);
+	box-shadow:         0px 3px 0px rgba(113, 174, 96, 1);
+}    
+
+/* Pagina de INICIO*/
+
+/* Botonera */
+#menu-principal div a{
+	background: #00a6d9;
+	border: 1px solid #FFF;
+	border-top: 2px solid #FFF;
+}
+
+
+#menu-principal div a span{
+	position: absolute;
+	bottom: 2%;
+	left: 8%;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#inicio #menu-principal{
+    width:100%;
+    height:100%;
+}
+
+#inicio #menu-principal .ui-bar {
+    height: 100%;
+	color: #FFF;
+	text-shadow: 0px !important;
+	font-weight: normal;
+	text-decoration: none;
+	padding:0px;
+}
+
+#inicio #menu-principal .ui-bar div{
+	#height:100%;
+    position:absolute;
+	top: 5%;
+	left: 5%;
+	bottom: 5%;
+	right: 5%;
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+#inicio #menu-principal #b-tips div{
+    background-image: url("../images/eco/iconos/icon-tip-v2.png");
+}
+#inicio #menu-principal #b-playlist div{
+    background-image: url("../images/eco/iconos/icon-playlists-v2.png");
+}
+#inicio #menu-principal #b-videos div{
+    background-image: url("../images/eco/iconos/icon-videos-v2.png");
+}
+
+#inicio #menu-principal #b-vitalitud div{
+    background-image: url("../images/eco/iconos/icon-vitalidad-v2.png");
+}
+
+#inicio #menu-principal #b-institucional a{
+    background-size:  auto 100%;
+	background-position: top center;
+    background-image: url("../images/eco/iconos/icon-institucional-wide-low.jpg");
+}
+#inicio #menu-principal #b-producto a{
+    background-size: auto 100%;
+	background-position: top right;
+    background-image: url("../images/eco/iconos/icon-producto-wide-low.jpg");
+}
+
+
+#inicio  .ui-grid-a .ui-block-a, #inicio .ui-grid-a .ui-block-b {
+    height: 33%;
+    width: 50%;
+}
+
+/*Encabezado*/
+#inicio #encabezado{
+	position:absolute;
+    height: 140px;
+    background-image: url("../images/eco/header-logo.png"), url("../images/eco/tile-fondo.jpg") ;
+    background-repeat: no-repeat, repeat-x;
+//    background-color: #90b7c8;
+    background-color: #1a75ba;
+    background-position: center center, top left;
+    background-size: auto 100%, auto 100% ;
+    border-bottom: 3px solid #1a75ba;
+	-moz-box-shadow: 0px 4px 8px  rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0px 4px 8px  rgba(0,0,0,0.4);
+	box-shadow: 0px 4px 8px  rgba(0,0,0,0.4);
+
+}
+
+#inicio .ui-content
+{
+        width: 100%;
+        position:absolute;
+        padding:0px;
+        bottom:0px;
+        top:0px;
+}
+
+
+/*Pagina VIDEOS*/
+
+#videos .ui-grid-a a
+{
+    height: 202px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: top center;
+    background-size: cover;
+    border:none;
+	padding:0px;
+	-moz-box-shadow: 0px 10px 15px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 10px 15px  rgba(0,0,0,0.5);
+	box-shadow: 0px 10px 15px  rgba(0,0,0,0.5);
+	text-decoration:none;
+}    
+
+#videos .video-1{
+    background-image: url("../images/eco/videos/video-1.jpg");
+}
+#videos .video-2{
+    background-image: url("../images/eco/videos/video-2.jpg");
+}
+#videos .video-3{
+    background-image: url("../images/eco/videos/video-3.jpg");
+}
+#videos .video-4{
+    background-image: url("../images/eco/videos/video-4.jpg");
+}
+#videos .video-5{
+    background-image: url("../images/eco/videos/video-5.jpg");
+}
+#videos .video-6{
+    background-image: url("../images/eco/videos/video-6.jpg");
+}
+#videos .video-7{
+    background-image: url("../images/eco/videos/video-7.jpg");
+}
+#videos .video-8{
+    background-image: url("../images/eco/videos/video-8.jpg");
+}
+#videos .video-9{
+    background-image: url("../images/eco/videos/video-9.jpg");
+}
+#videos .video-10{
+    background-image: url("../images/eco/videos/video-10.jpg");
+}
+
+
+#videos .ui-grid-a a div
+{
+    position:absolute;
+	bottom: 0px;
+	left:0px;
+	right: 0px;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.3);
+}  
+
+#videos .ui-grid-a a div h3, #videos .ui-grid-a a div h6
+{
+    color:#FFF;
+	text-shadow: none;
+	display: block;
+}  
+
+#videos .ui-grid-a a div h6{
+	font-weight: normal;
+}
+#videos .ui-grid-a .ui-block-a, #videos .ui-grid-a .ui-block-b {
+	height:222px;
+}
+
+/*Pagina PLAYLIST*/
+#playlist .ui-content{
+	padding:15px;
+}
+#playlist iframe{
+	width:100%;
+	height:218px;
+	margin-bottom: 10px;
+	
+	-moz-box-shadow: 0px 4px 8px  rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0px 4px 8px  rgba(0,0,0,0.4);
+	box-shadow: 0px 4px 8px  rgba(0,0,0,0.4);
+
+}
+
+/*Pagina Institucional*/
+/* #institucional .grilla{ height:100%}
+#institucional .grilla .ui-block-a{ height:100%} */
+#institucional .img_botella{
+    width:90%;
+    height: 95%;
+    background-image:  url("../images/eco/institucional-botella.jpg") ;
+    background-repeat: no-repeat;
+    background-color: #90b7c8;
+    border-right:5px solid #FFF;
+   /* background-position:  top left;
+	background-size: cover;*/
+	background-position: top center;
+	background-size: cover;
+	-moz-box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0px 10px 10px  rgba(0,0,0,0.2);
+	box-shadow: 0px 10px 10px  rgba(0,0,0,0.2);
+}
+
+#institucional  .redes-footer{
+	text-align: center;
+	border:0px;
+	height:50px;
+	line-height:50px;
+	background: none;
+}
+
+#institucional  .redes-footer  .redes-top{
+	position: absolute;
+	top: -30px;
+	width: 50%;
+	height: 30px;
+	line-height: 30px;
+}
+
+#institucional  .redes-footer  .redes-top div{
+	height: 30px;
+}
+
+#institucional  .redes-seguinos {
+	color: #FFF;
+	text-decoration: none;
+	background:#458ebb;
+	border-radius: 5px 5px 0px 0px;
+	padding: 0px 15px;
+	line-height: 30px;
+	text-align: right;
+	margin-right: 10px;
+	position:absolute;
+	right:5px;
+}
+
+#institucional .redes-footer .youtube{
+	background: url("../images/eco/institucional-youtube.png"), #458ebb;
+	background: url("../images/eco/institucional-youtube.png"), -moz-linear-gradient(top,  #458ebb 0%, #164674 100%);
+	background: url("../images/eco/institucional-youtube.png"),-webkit-gradient(linear, left top, left bottom, color-stop(0%,#458ebb), color-stop(100%,#164674));
+	background: url("../images/eco/institucional-youtube.png"), -webkit-linear-gradient(top,  #458ebb 0%,#164674 100%);
+	background: url("../images/eco/institucional-youtube.png"),-o-linear-gradient(top,  #458ebb 0%,#164674 100%);
+	background: url("../images/eco/institucional-youtube.png"), -ms-linear-gradient(top,  #458ebb 0%,#164674 100%);
+	background: url("../images/eco/institucional-youtube.png"), linear-gradient(to bottom,  #458ebb 0%,#164674 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#458ebb', endColorstr='#164674',GradientType=0 );
+    background-repeat: no-repeat, no-repeat;
+	background-position: center center, top left;
+	background-size: auto 60%, auto;
+}
+
+#institucional .redes-footer .facebook{
+	background: url("../images/eco/institucional-f.png"), #0053ab;
+	background: url("../images/eco/institucional-f.png"),-moz-linear-gradient(top,  #0053ab 0%, #042269 100%);
+	background: url("../images/eco/institucional-f.png"),-webkit-gradient(linear, left top, left bottom, color-stop(0%,#0053ab), color-stop(100%,#042269));
+	background: url("../images/eco/institucional-f.png"),-webkit-linear-gradient(top,  #0053ab 0%,#042269 100%);
+	background:url("../images/eco/institucional-f.png"), -o-linear-gradient(top,  #0053ab 0%,#042269 100%);
+	background: url("../images/eco/institucional-f.png"),-ms-linear-gradient(top,  #0053ab 0%,#042269 100%);
+	background: url("../images/eco/institucional-f.png"),linear-gradient(to bottom,  #0053ab 0%,#042269 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0053ab', endColorstr='#042269',GradientType=0 );
+    background-repeat: no-repeat, no-repeat;
+	background-position: center center, top left;
+	background-size: auto 60%, auto;
+}
+
+#institucional #redes {
+	position:relative;
+	background: #074494;
+	background: -moz-linear-gradient(top,  #074494 0%, #0a204e 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#074494), color-stop(100%,#0a204e));
+	background: -webkit-linear-gradient(top,  #074494 0%,#0a204e 100%);
+	background: -o-linear-gradient(top,  #074494 0%,#0a204e 100%);
+	background: -ms-linear-gradient(top,  #074494 0%,#0a204e 100%);
+	background: linear-gradient(to bottom,  #074494 0%,#0a204e 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#074494', endColorstr='#0a204e',GradientType=0 );
+}
+
+#institucional .grilla > div.ui-block-b  p{
+	text-align: justify;
+	line-height: 1.7em;
+}
+
+#institucional h2 {
+	font-size: 1.5em;
+	margin: 1em 0;
+}
+
+/* TIPS */
+#tips {
+}
+
+#tips #encabezado-wrapper{
+	position:absolute;
+	z-index: 100;
+	width: 100%;
+	top:0px;
+}
+
+#tips #contenido{
+	position:absolute;
+	width:100%;
+	overflow: hidden;
+} 
+
+#tips #contenido .anterior, #tips #contenido .siguiente{
+	position: absolute;
+	z-index:1000;
+	top: 50%;
+	background-color: #1a75ba;
+	color: white;
+	text-decoration:none;
+	font-weight: normal;
+	line-height: 2em;
+	padding: 0px 0.5em;
+	border-radius: 0.2em;
+	-moz-box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 2px 10px  rgba(0,0,0,0.1);
+	box-shadow: 0px 2px 10px  rgba(0,0,0,0.1);
+	
+}
+
+#tips #contenido .anterior{
+	left: 0.4em;
+}
+
+#tips #contenido .siguiente{
+	right: 0.4em;
+}
+
+.tip {
+	margin: 2.5em 10em;
+	padding: 3em 5em;
+	-moz-box-shadow: 0px 10px 1em rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0px 10px 1em rgba(0,0,0,0.8);
+	box-shadow: 0px 10px 1em  rgba(0,0,0,0.8);
+	background-image:  url("../images/eco/tips-postit-azul-bg.jpg") ;
+    background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	position:relative;
+}
+
+.bullets{
+	display: block;
+	width: 100%;
+	height: 1em;
+	position:absolute;
+	bottom:0;
+	text-align: center;
+    color: #8ec2fe;
+    font-size: 3em;
+}
+
+.bullets em.on {
+    color: #1b78be;
+}
+.bullets em {
+    margin: 0px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-style: normal;
+	line-height: 1em;
+    padding: 0;
+}
+
+
+
+#tips  .tips-wrapper{
+	height: 100%;
+	background-image:  url("../images/eco/tips-postit-bg.png") ;
+    background-repeat: no-repeat;
+   /* background-position:  top left;
+	background-size: cover;*/
+	background-position: center center;
+	background-size: 80% 100%;
+}
+
+#tips #footer-tips{
+	position:absolute;
+	bottom:0;
+	z-index:200;
+	left: 10%;
+	right: 10%;
+	border:0px;
+}	
+
+#tips #footer-tips .ui-btn-up-a{
+	background: #9b9c9d;
+	background: -moz-linear-gradient(top,  #9b9c9d 0%, #818283 41%, #636464 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9b9c9d), color-stop(41%,#818283), color-stop(100%,#636464));
+	background: -webkit-linear-gradient(top,  #9b9c9d 0%,#818283 41%,#636464 100%);
+	background: -o-linear-gradient(top,  #9b9c9d 0%,#818283 41%,#636464 100%);
+	background: -ms-linear-gradient(top,  #9b9c9d 0%,#818283 41%,#636464 100%);
+	background: linear-gradient(to bottom,  #9b9c9d 0%,#818283 41%,#636464 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b9c9d', endColorstr='#636464',GradientType=0 );
+	border:1px solid #9b9c9d;
+}
+
+#tips #footer-tips .ui-btn-up-a.activo{
+	background: #01afed;
+	background: -moz-linear-gradient(top,  #01afed 0%, #0080da 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#01afed), color-stop(100%,#0080da));
+	background: -webkit-linear-gradient(top,  #01afed 0%,#0080da 100%);
+	background: -o-linear-gradient(top,  #01afed 0%,#0080da 100%);
+	background: -ms-linear-gradient(top,  #01afed 0%,#0080da 100%);
+	background: linear-gradient(to bottom,  #01afed 0%,#0080da 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01afed', endColorstr='#0080da',GradientType=0 );
+}
+
+#tips .texto-tip{
+	text-align:center;
+	color: #FFF;
+	border-top: 0.2em solid #FFF;
+	border-bottom: 0.2em solid #FFF;
+	padding: 1em 0;
+	font-size: 1.4em;
+	line-height: 1.7em;
+}
+
+#tips .texto-tip p{
+	color: #FFF;
+}
+
+#tips .numero-tip{
+	background-color: #54a0fb;
+	color: #FFF;
+	display: block;
+	position: absolute;
+	top:-0.2em;
+	right:-2em;
+	width: 2em;
+	height: 2em;
+	line-height: 2em;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 1em;
+	-moz-box-shadow: 0px 10px 1em rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 10px 1em rgba(0,0,0,0.5);
+	box-shadow: 0px 10px 1em  rgba(0,0,0,0.5);
+
+}
+
+#tips .icono-tip{
+	background-color: #0079d3;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: -1em;
+	width: 5em;
+	height: 5em;
+	line-height: 5em;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 2.5em;
+	-moz-box-shadow: 0px 10px 1em rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 10px 1em rgba(0,0,0,0.5);
+	box-shadow: 0px 10px 1em  rgba(0,0,0,0.5);
+}
+
+#tips .icono-tip.checked{
+	background-image:  url("../images/eco/tips-postit-icono.png") ;
+    background-repeat: no-repeat;
+   /* background-position:  top left;
+	background-size: cover;*/
+	background-position: center center;
+	background-size: 85% 60%;
+}
+
+
+/* VITALITUD */
+#vitalitud .contenido-wrapper {
+	padding: 0px 4%;
+}
+#vitalitud  .contenido-wrapper .ui-btn{
+	margin: 2em 0;
+}
+
+.preguntas .ui-content .ui-btn{
+	margin: 0.5em 0;
+}
+
+.vitalitud h2 {
+    font-size: 1.5em;
+    margin: 1em 0;
+}
+
+#vitalitud .contenido-wrapper  p, #vitalitud-resultado p{
+	margin-bottom: 1.5em;
+}
+
+#vitalitud.portada .img_vitalidad {
+	background-image:url("../images/eco/vitalitud/h/img-principal.jpg");
+	background-position: center center;
+}
+
+.vitalitud.preguntas .imagen, #vitalitud-resultado .imagen{
+	height: 100%;
+	width:100%;
+	border-right: 4px solid #FFF;
+	position: relative;
+	overflow: hidden;
+}
+
+#vitalitud-1 .imagen{
+	background-image:url("../images/eco/vitalitud/h/img-1.jpg");
+	background-position: center top;
+}
+#vitalitud-2 .imagen{
+	background-image:url("../images/eco/vitalitud/h/img-2.jpg");
+	background-position: left bottom;
+}
+#vitalitud-3 .imagen{
+	background-image:url("../images/eco/vitalitud/h/img-3.jpg");
+	background-position: center bottom;
+}
+	
+#vitalitud-4 .imagen{
+	background-image:url("../images/eco/vitalitud/h/img-4.jpg");
+	background-position: right bottom;
+}
+#vitalitud-5 .imagen{
+	background-image:url("../images/eco/vitalitud/h/img-5.jpg");
+	background-position: left bottom;
+}
+#vitalitud-6 .imagen{
+	background-image:url("../images/eco/vitalitud/h/img-6.jpg");
+	background-position: bottom center;
+}
+#vitalitud-7 .imagen{
+	background-image:url("../images/eco/vitalitud/h/img-7.jpg");
+}
+#vitalitud-8 .imagen{
+	background-image:url("../images/eco/vitalitud/h/img-8.jpg");
+	background-position: right top;
+}
+#vitalitud-9 .imagen{
+	background-image:url("../images/eco/vitalitud/h/img-9.jpg");
+	background-position: right center;
+}
+
+
+
+.vitalitud.preguntas .imagen span{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 30px;
+	height: 30px;
+	background: #FFF;
+	color:#0053AB;
+	text-align:center;
+	display:block;
+	font-weight: bold;
+	line-height: 30px;
+	border-radius: 15px;
+}
+
+.vitalitud.preguntas .ui-content, #vitalitud-resultado .ui-content{
+	padding: 0px;
+}
+
+.vitalitud.preguntas .ui-content .ui-block-b {
+	padding: 0px 30px;
+}
+
+#vitalitud-resultado .medidor{
+	margin: 2.5%;
+	width: 95%;
+	height: 95%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#vitalitud-resultado h2 {
+    font-size: 3em;
+    margin: 1em 0;
+    line-height: 1.5em;
+    text-align: center;
+	-webkit-box-shadow:  0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow:  0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+	text-transform: uppercase;
+}
+
+#vitalitud-resultado p {
+    text-align: center;
+	padding: 0 2em;
+	color: #1A75BA;
+}
+#vitalitud-resultado .cartel-vitalitud {
+	background:#1A75BA;
+	color: #FFF;
+	line-height: 1.5em;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 1.5em;
+	-webkit-box-shadow:  0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow:  0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+}
+/* PAGINA PRODUCTO */
+
+#producto .ui-content {
+	background-image: url("../images/eco/producto-bg.jpg");
+    background-repeat: no-repeat;
+    background-color: #90b7c8;
+   /* background-position:  top left;
+	background-size: cover;*/
+	background-position: bottom center;
+	background-size: cover;
+
+}
+
+#producto .img_producto {
+	background-image: url("../images/eco/producto-img.png");
+    background-repeat: no-repeat;
+	background-color: none;
+   /* background-position:  top left;
+	background-size: cover;*/
+	background-position: bottom center;
+	background-size: contain;
+
+}
+
+#producto .contenido-wrapper{
+	padding: 0px 10%;
+}
+#producto h2, #producto span.one{
+	background-color: #f7ee2c;
+	color: #0053ab;
+	margin:0px;
+	
+}
+
+#producto h2{
+	margin-top: 2em;
+	padding: 0.2em 25px;
+	font-size: 1.2em;
+	font-weight: normal;
+	line-height: 2em;
+}
+
+#producto span.one{
+	font-weight: bold;
+	font-size: 2em;
+	padding: 0 25px;
+}
+
+#producto .placa-azul{
+	background-color: #0053ab;
+	padding: 0.9em 25px;
+	margin-top: 2em;
+        text-align:justify;
+        text-justify: newspaper;
+}
+
+#producto .placa-azul p{
+	color: #FFF;
+}
+
+#producto .ui-grid-a  > .ui-block-a {
+	width:40%;
+}
+
+#producto .ui-grid-a > .ui-block-b {
+	width:60%;
+}
+
+#producto .video-institucional{
+	position: relative;
+	margin-top: 15px;
+	background-image:url("../images/eco/eco-de-los-andes-one-video-institucional.png");
+	background-size: 100% auto;
+	display:block;
+	background-repeat: no-repeat;
+
+}
+
+#producto .video-institucional .placa-interior{
+	background-color: #0053ab;
+    text-align:justify;
+    text-justify: newspaper;
+	height: 106px;
+	position: absolute;
+	top: 6px;
+	left:198px;
+	right:9px;
+}
+
+#producto .video-institucional .placa-interior p{
+	color: #FFF;
+	margin: 1em;
+	font-size: 1.5em;
+}
+
+#producto .video-institucional .thumb-video{
+	display:block;
+	width: 190px;
+	height: 106px;
+	background-image:url("../images/eco/eco-de-los-andes-one-video-thumb.jpg");
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 12px;
+	left:0px;
+}
+
+#producto .video-institucional .borde-izq{
+	display:block;
+	width: 8px;
+	background-image:url("../images/eco/eco-de-los-andes-one-video-pliegue.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 5px;
+	left:190px;
+	height: 113px;
+}
+#producto .video-institucional .borde-der{
+	height: 113px;
+	display:block;
+	width: 9px;
+	background-image:url("../images/eco/eco-de-los-andes-one-video-pliegue2.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0px;
+	right:0px;
+}
+
+
+@media all and (orientation:portrait) {
+
+	#inicio #menu-principal #b-tips  a, #inicio #menu-principal #b-playlist a{
+		border-top: none;
+	}
+	#inicio #menu-principal #b-tips  a, #inicio #menu-principal #b-videos a, #inicio #menu-principal #b-producto a {
+		border-left:none;
+	}
+	
+	#inicio #menu-principal #b-vitalitud a, #inicio #menu-principal #b-playlist a, #inicio #menu-principal #b-institucional a{
+		border-right: none;
+	}
+
+	#inicio #menu-principal #b-institucional a, #inicio #menu-principal #b-producto a{
+		border-bottom: none;
+	}
+
+
+	/* Pagina de VIDEOS */
+
+	#videos .ui-grid-a .ui-block-a, #videos .ui-grid-a .ui-block-b {
+        width: 100%;
+    }
+	
+	/* Pagina INSTITUCIONAL */
+	#institucional .ui-content{
+		min-height: 500px;
+	}
+	#institucional #redes  > .ui-grid-a  > .ui-block-a {
+		width:0px;
+	}
+
+	#institucional #redes  > .ui-grid-a > .ui-block-b {
+		width:100%;
+	}
+
+	#institucional  .redes-footer  .redes-top{
+		width: 100%;
+	}
+	
+	#institucional .grilla > div , .vitalitud .grilla > div {
+		width: 100%;
+	}
+	
+	#institucional .ui-content{
+		padding: 0px;
+	}
+	#institucional .img_botella{
+		width:100%;
+		border: 0px;
+		border-bottom: 5px solid #FFF;
+	}
+	
+	#institucional .grilla > div.ui-block-b {
+		padding: 0px 10%;
+	}
+
+	.vitalitud .ui-content{
+		min-height: 300px;
+	}
+	
+
+	#vitalitud-1 .imagen{
+		background-image:url("../images/eco/vitalitud/v/img-1.jpg");
+	}
+	#vitalitud-2 .imagen{
+		background-image:url("../images/eco/vitalitud/v/img-2.jpg");
+	}
+	#vitalitud-3 .imagen{
+		background-image:url("../images/eco/vitalitud/v/img-3.jpg");
+	}
+	#vitalitud-4 .imagen{
+		background-image:url("../images/eco/vitalitud/v/img-4.jpg");
+	}
+	#vitalitud-5 .imagen{
+		background-image:url("../images/eco/vitalitud/v/img-5.jpg");
+	}
+	#vitalitud-6 .imagen{
+		background-image:url("../images/eco/vitalitud/v/img-6.jpg");
+	}
+	#vitalitud-7 .imagen{
+		background-image:url("../images/eco/vitalitud/v/img-7.jpg");
+	}
+	#vitalitud-8 .imagen{
+		background-image:url("../images/eco/vitalitud/v/img-8.jpg");
+	}
+	#vitalitud-9 .imagen{
+		background-image:url("../images/eco/vitalitud/v/img-9.jpg");
+	}
+	#vitalitud.portada .img_vitalidad {
+		background-image:url("../images/eco/vitalitud/v/img-principal.jpg");
+	}
+	.vitalitud.preguntas .ui-content .ui-block-b {
+		padding: 0px 0.5em;
+	}
+
+	#vitalitud-resultado h2 {
+		margin: 0 0 0.5em 0;
+	}
+
+	#vitalitud-resultado .cartel-vitalitud {
+		margin-top: 1.2em;
+	}
+
+	#vitalitud-resultado .imagen {
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+}
+
+@media all and (orientation:portrait) and (max-width: 500px) {
+	body {
+		font-size: 75%;
+	}
+	
+	#inicio #encabezado {
+		height: 100px;
+	}    
+
+	#inicio .ui-content{
+		margin-top: 18%;
+	}
+
+	#menu-principal div a span{
+		bottom: 3%;
+		left: 6%;
+		font-size: 1em;
+	}
+
+	#producto h2{
+		margin-top: 0.3em;
+                padding: 0.2em 10px;
+                font-size: 1em;
+	}
+        
+        #producto span.one{
+                padding: 0 10px;
+	}
+        
+        #producto .placa-azul{
+            padding: 0.9em 10px;
+        }
+        
+	#producto{
+		font-size: 70%;
+	}
+
+	#producto  .ui-grid-a  > .ui-block-a {
+		width:45%;
+	}
+
+	#producto  .ui-grid-a > .ui-block-b {
+		width: 55%;
+	}
+
+	#producto .ui-content{
+		min-height: 400px;
+	}
+
+	#producto .contenido-wrapper{
+		padding: 0px 4%;
+	}
+	
+	#tips {
+		font-size:60%;
+	}
+
+	#tips .tip{
+		margin:1em 2.5em;
+		padding:2em 2em;
+	}
+	
+	#tips .icono-tip{
+		right: -1.5em;
+		width: 4em;
+		height: 4em;
+		line-height: 4em;
+		border-radius: 2em;
+	}
+	
+	.tip p {
+		line-height: 1.2em;
+	}	
+	
+	#tips #footer-tips{
+		left:0;
+		right: 0;
+	}
+	
+	.vitalitud h2 {
+		margin: 0.8em 0;
+	}
+	
+	.vitalitud .ui-field-contain{
+		padding:0;
+	}
+	
+	.vitalitud .imagen, .img_botella{
+		min-height: 150px;
+	}
+	
+	#vitalitud-resultado h2 {
+		font-size: 2em;
+		line-height: 1.5em;
+	}
+
+	#vitalitud-resultado p {
+		padding: 0 0.5em;
+		margin-bottom:1em; 
+	}
+	#vitalitud-resultado .cartel-vitalitud {
+		line-height: 1.5em;
+		font-size: 1em;
+		margin-top: 1.1em;
+	}
+	
+	#vitalitud .contenido-wrapper .ui-btn {
+		margin: 1em 0;
+	}
+
+        
+	#institucional .grilla > div.ui-block-b {
+		padding: 0 5% 30px;
+	}
+
+	.vitalitud.preguntas .imagen{
+		min-height: 80px;
+		
+	}
+        
+        #vitalitud-resultado .imagen{
+		min-height: 80px;
+		
+	}
+
+	
+}
+
+@media all and (orientation:landscape) {
+    /* Pagina de INICIO */
+    
+    /* Cuando esta landscape la botonera de la home es 3x2 */
+    #inicio  .ui-grid-a .ui-block-a, #inicio .ui-grid-a .ui-block-b {
+        height: 50%;
+        width: 33.33%;
+    }
+     
+	#inicio #menu-principal #b-tips  a, #inicio #menu-principal #b-playlist a, #inicio #menu-principal #b-videos a{
+		border-top: none;
+	}
+	#inicio #menu-principal #b-tips  a, #inicio #menu-principal #b-vitalitud a{
+		border-left:none;
+	}
+	
+	#inicio #menu-principal #b-videos a, #inicio #menu-principal #b-institucional a{
+		border-right: none;
+	}
+
+	
+	#inicio #menu-principal #b-institucional a, #inicio #menu-principal #b-producto a, #inicio #menu-principal #b-vitalitud a{
+		border-bottom: none;
+	}
+
+	 /* Pagina de VIDEOS */
+	#videos .ui-grid-a .ui-block-a, #videos .ui-grid-a .ui-block-b {
+        width: 50%;
+    }
+
+	#videos .ui-grid-a div a
+	{
+		margin-left: 2px;
+	}    
+
+	#videos .ui-grid-a div:nth-child(2n+1) a
+	{
+		margin-right: 2px;
+		margin-left:0px;
+	}    
+	/* Pagina INSTITUCIONAL */
+	#institucional .ui-content, #producto .ui-content{
+		min-height: 400px;
+		overflow: hidden;
+	}
+
+	.vitalitud .ui-content{
+		/*min-height: 450px;*/
+		overflow: hidden;
+	}
+}
+
+@media all and (orientation:landscape) and (min-device-width: 940px) {
+	body {
+		text-align:center;
+	}
+	.ui-page{
+		width: 870px !important;
+		margin: 0px auto;
+		text-align:left;
+		position:relative!important;
+	}
+	#institucional #redes {
+		width:940px;
+		margin: 0 auto;
+	}
+}
+
+@media all and (orientation:landscape) and (max-height:500px){
+	body {
+		font-size: 75%;
+	}
+
+	#encabezado{
+		height: 15%;
+	}
+	
+	#inicio #encabezado{
+		height: 42px;
+		border-bottom: 1px solid #1a75ba;
+	}    
+
+	#inicio .ui-content{
+	}
+	
+	#menu-principal div a span{
+		position: absolute;
+		bottom: 2%;
+		left: 5%;
+		font-size: 1em;
+		font-weight: bold;
+	}
+
+	
+	/*Pagina VIDEOS*/
+	#videos .ui-grid-a a{
+		height: 130px;
+	}    
+
+	#videos .ui-grid-a .ui-block-a, #videos .ui-grid-a .ui-block-b {
+		height:140px;
+	}
+
+	#producto{
+		font-size: 75%;
+	}
+	#producto h2 {
+		margin-top: 0.3em;
+		padding: 0.2em 1.5em;
+	}
+
+	#tips {
+		font-size:75%;
+	
+	}
+
+	#tips .tip{
+		margin:1em 2em;
+		padding:1.7em 4.5em;
+		font-size: 80%;
+		min-height: 90%;
+	}
+
+	#tips .tip .texto-tip{
+			padding: 0.5em 0;
+	}
+
+        .vitalitud.preguntas .ui-content .ui-block-b {
+		padding: 0px 0.5em;
+		width: 60%;
+	}
+	#vitalitud-resultado .ui-content .ui-block-b {
+                width: 60%;
+        }
+	#vitalitud-resultado .ui-content .ui-block-a, .vitalitud.preguntas .ui-content .ui-block-a{
+		width: 40%;
+	}
+        
+        #vitalitud-resultado h2 {
+		font-size: 2em;
+		line-height: 1.5em;
+                margin: 0.5em 0;
+	}
+
+	#vitalitud-resultado p {
+		padding: 0 0.5em;
+		margin-bottom:1em; 
+	}
+	#vitalitud-resultado .cartel-vitalitud {
+		line-height: 1.5em;
+		font-size: 1em;
+		margin-top: 1.1em;
+	}
+	
+	#vitalitud .contenido-wrapper .ui-btn {
+		margin: 1em 0;
+	}
+
+}
+
+
+
+
+
+

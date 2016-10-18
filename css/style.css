@@ -1,0 +1,36 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, del, dfn, em, img, ins, kbd, q, samp, small, strong, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, footer, header, nav, section {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+}
+body {
+  -webkit-text-size-adjust:none;
+}
+
+.swipe {
+  padding-bottom:0px;
+  position:relative;
+  z-index:1;
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+}
+.swipe li hr , .swipe hr{
+  margin:0 10px;
+  padding:50px 10px;
+  font-weight:bold;
+  color:#fff;
+  font-size:20px;
+  text-align:center;
+}
+
+.swipe li{
+	/*border: 1px solid red;*/
+	padding: 0 15px;
+}
+
+.swipe{
+	/*border: 1px solid green;*/
+}

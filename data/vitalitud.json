@@ -1,0 +1,70 @@
+{ "data" :[
+	{"pregunta": "¿Cuántas veces por semana realizas actividades deportivas?"
+	  , "opciones":[
+			{"texto": "2 o más veces por semana.", "valor": 3},
+			{"texto": "1 vez por semana.", "valor": 2},
+			{"texto": "Ninguna.", "valor": 1}
+	  ]
+	},
+
+	{"pregunta": "¿Cuándo fue la última vez que comenzaste una nueva actividad?"
+	  , "opciones":[
+		{"texto": "Me encanta emprender nuevas actividades todo el tiempo.", "valor": 3},
+		{"texto": "Con bastante esfuerzo decidí empezar una nueva actividad este año.", "valor": 2},
+		{"texto": "No comencé ninguna en el último año.", "valor": 1}
+	  ]
+	}, 
+	
+	{"pregunta": "¿Cómo está tu calzado deportivo?"
+	  , "opciones":[
+		{"texto": "¡Sucio porque siempre estoy usándolos!", "valor": 3},
+		{"texto": "Limpio porque me tomo el tiempo para limpiarlo.", "valor": 2},
+		{"texto": "Están nuevos porque no los uso/ No tengo.", "valor": 1}
+	  ]
+	},
+
+	{"pregunta": "Cuando se arma un partido de fútbol, tenis u otro deporte..."
+	  , "opciones":[
+		{"texto": "A veces organizo el partido.", "valor": 3},
+		{"texto": "Nunca armo los partidos.", "valor": 2},
+		{"texto": "No juego regularmente a ningún deporte.", "valor": 1}
+	  ]
+	},
+	{"pregunta": "¿Sos constante en tu actividad física a lo largo del año?"
+	  , "opciones":[
+		{"texto": "Muy frecuente. Hago alguna actividad física todas las semanas.", "valor": 3},
+		{"texto": "Soy constante. Más allá de algunos baches, me mantengo activo todos los meses.", "valor": 2},
+		{"texto": "No. Practico poco y hasta puedo estar un mes sin hacer actividad física.", "valor": 1}
+	  ]
+	},
+	{"pregunta": "Cuando entrenás pensás en..."
+	  , "opciones":[
+		{"texto": "Batir mi propio record constantemente.", "valor": 3},
+		{"texto": "Hacer lo mejor que puedo.", "valor": 2},
+		{"texto": "Llegar a la meta.", "valor": 1}
+	  ]
+	},
+	{"pregunta": "Cuando te despertás a la mañana..."
+	  , "opciones":[
+		{"texto": "Apago el despertador una vez y me levanto.", "valor": 3},
+		{"texto": "Algunos días suena un par de veces antes que me levante.", "valor": 2},
+		{"texto": "Siempre lo apago repetidas veces antes de levantarme.", "valor": 1}
+	  ]
+	},
+	{"pregunta": "Si salís en la semana..."
+	  , "opciones":[
+		{"texto": "Llego puntual al trabajo.", "valor": 3},
+		{"texto": "A veces llego un poco tarde al trabajo.", "valor": 2},
+		{"texto": "Seguramente llegue tarde al trabajo.", "valor": 1}
+	  ]
+	},
+		{"pregunta": "¿Cómo está tu habitación?"
+	  , "opciones":[
+		{"texto": "Todos los días la mantengo ordenada.", "valor": 3},
+		{"texto": "Algunos días desordenada.", "valor": 2},
+		{"texto": "Siempre desordenada.", "valor": 1}
+	  ]
+	}
+]}
+
+				
